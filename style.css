@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.highlight:hover
+{
+    background-color: #fafafa;
+    color: white;
+    font-weight: bold;
+    
+    border-radius: 10px;
+}
+.my-home-logo-name{
+    font-size: 2rem;
+    font-family: 'Ephesis', cursive;
+    font-weight: 800;
+}
+.my-footer
+{
+    background-color: #332FD090;
+   
+    height: auto;
+    width: 100%;
+   
+}
+.my-logo > img
+{
+
+width:20px;
+margin: 5px;
+cursor: pointer;
+}
+.my-heading{
+    background-color: #0C356A;
+    border-radius: 10px;
+    color: white;
+}
+/* .my-card{
+    background-color: #bb0000;
+} */
+.my-card:hover{
+    background-color: rgba(99, 99, 98, 0.587);
+    color:white;
+    cursor: pointer;
+}
+.my-footer-heading h2{
+    margin-top: 50px;
+    font-size: 15px;
+
+}
+.my-footer-heading{
+    font-size: 12px;
+}
+
+
+
+
+
+/*login css*/
+.my-login-frame
+{
+    height: auto;
+    width: auto;
+    background-color: #0C356A;
+    border-radius: 60px;
+    color: white;
+padding: 100px;
+margin-bottom: 10px;
+}
+
+.login-input-box
+{
+    background-color: rgb(255, 255, 255);
+    width:auto;
+    min-width: 100px;
+    max-width: 400px;
+}
+
+.login-buttons{
+  margin: 5px ;
+  width: 100px;
+  margin-top: 20px;
+height: 35px;
+border-radius: 10px;
+border: none;
+font-size: 15px;
+color: white;
+}
+.login-buttons:hover{
+    width: 103px;
+    height: 37px;
+    box-shadow: 0 8px 12px rgba(229, 227, 227, 0.2); /* Adjusting shadow on hover */
+}
+
+.login-create-buttons{
+    width: 220px;
+    height:35px;
+    font-size: 12px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+.login-create-buttons:hover
+{
+    width:222px;
+    height:36px;
+    box-shadow: 0 8px 12px rgba(209, 205, 205, 0.2); /* Adjusting shadow on hover */
+    /* font-size: 13px; */
+    /* font-weight: bold; */
+}
+
+
+
+
+
+
+/* Shopkeeper home css starts here */
+.Shopkeeper-main-buttons{
+     max-height: 30vh;
+     min-height: 10vh;
+    width: 20vw;
+    background-image: linear-gradient(to right, #0c61e1, #4461d4, #5a61c7, #6862bb, #7164af);
+    border: 10px solid #26507390;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 650;
+    color: white;
+   
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adding drop shadow effect */
+    
+   
+}
+ .Shopkeeper-main-buttons:hover{
+  
+  width:20.5vw;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Adjusting shadow on hover */
+
+ } 
+
+ .Shopkeeper-extra-buttons{
+    min-width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+     /* margin: 5px; */
+    margin-top: 20px;
+    
+    margin-bottom: 20px;
+    /* margin-right: 30px;  */
+  
+ }
+ .Shopkeeper-extra-buttons:hover{
+   
+    height:52px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Adjusting shadow on hover */
+
+ }
+ .Shopkeeper-option-buttons{
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color:#0C356A ;
+    color: white;
+ }
+ .Shopkeeper-option-buttons:hover{
+    width:202px;
+    height:42px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Adjusting shadow on hover */
+
+ }
+
+ .Shopkeeper-logout-button:hover{
+    width:100px;
+    height:35px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Adjusting shadow on hover */
+ }
+
+
+
+
+
+ /* about css is starts here */
+
+
+ .my-about-logos
+ {
+
+width:20px;
+margin: 5px;
+cursor: pointer;
+}
+
+
+
+/* Customer Cursol css */
+
+.my-customer-recent-cards:hover{
+    box-shadow: 0 8px 12px rgb(0, 0, 0); 
+}
+
+.my-cart-button:hover{
+    box-shadow: 0 8px 12px rgb(0, 0, 0); 
+}
+
+
+
+
+
+
+
+/* features css is here */
+
+.my-featurs-image{
+    height: auto;
+    width: 200px;
+}

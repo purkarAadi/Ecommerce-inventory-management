@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+    <title>ShopEze</title>
+</head>
+<body style="margin: 0; padding: 0; background-color: #F0F0F0;">
+    <!--Header starts here  -->
+  <div style="background-color:#332FD090;">
+    <div class="container">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none my-home-logo-name">
+            <!-- <svg class="bi me-2" width="40" height="32" role="img" aria-label="ShopEze"><use xlink:href=""></use></svg> -->
+            <img  class="bi me-2" width="40" height="42" src="./Resources/images/website logo.svg" />
+            ShopEze
+          </a>
+    
+          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 ">
+            <li class="highlight"><a class="nav-link px-2 link-dark" href="index.html" >Home</a></li>
+            <li class="highlight"><a href="features.html" class="nav-link px-2 link-dark">Features</a></li>
+           
+            <li class="highlight"><a href="about.html" class="nav-link px-2 link-dark">About</a></li>
+          </ul>
+    
+          <div class="col-md-3 text-end">
+          <a href="login.html">  <button type="button" class="btn btn-outline-primary me-2" >Login</button></a>
+      
+          </div>
+        </header>
+      </div>
+    </div>
+    <!-- Header Ends here -->
+
+
+    <!-- main Stats here -->
+    <div class="container" style="background-color: #D0D4CA; border-radius:30px; width:90vw; ">
+        <center>
+     <!-- Name -->
+      <div class="input-group mb-3" style="padding-top: 30px; width: 60vw; " >
+             <span class="input-group-text" id="inputGroup-sizing-lg" style="height:50px ;">Name</span>
+             <input type="text" class="form-control" id="signupName" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Enter your name" maxlength="30">
+           </div>
+     
+     
+     <!-- Contact number -->
+           <div class="input-group mb-3" style="padding-top: 5px; width: 60vw; " >
+             <span class="input-group-text" id="inputGroup-sizing-lg" style="height:50px ;">Mob. Number</span>
+             <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Enter your number" id="signupMobile" maxlength="10" >
+           </div>
+     <!-- user type -->
+     <div class="input-group mb-3" style="padding-top: 5px; width: 60vw ;  " >
+         <span class="input-group-text" id="inputGroup-sizing-lg" style="height:50px ;">Select user type</span>
+         <select class="form-select " id="form-selector" aria-label="Default select example">
+             <option selected>Select</option>
+             <option value="inventory">Manage inventory and Sell Online</option>
+             <option value="seller">Online Seller</option>
+             <option value="customer">Customer</option>
+           </select>
+       </div>
+       <div id="errorMsgFirst" style="color: red; font-size: 15px; padding-bottom: 30px;"></div>
+         </center>
+
+
+
+
+
+         <br>
+         <!-- Customer -->
+         <div class="container" id="form-customer"style=" background-color: #D0D4CA; border-radius:30px; display:none; width:90vw;">
+             <center>
+          <!-- Email   --><p style="color: rgb(69, 55, 55); font-size: 20px ; padding-top: 20px; font-weight: 900;">Additional details</p>
+           <div class="input-group mb-3" style="padding-top: 30px; width: 60vw; " >
+                  <span class="input-group-text" id="inputGroup-sizing-lg" style="height:50px ;">Email</span>
+                  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Enter your email">
+                </div>
+          
+          
+          <!-- Password number -->
+                <div class="input-group mb-3" style="padding-top: 5px; width: 60vw; " >
+                  <span class="input-group-text"  id="inputGroup-sizing-lg" style="height:50px ;">Password</span>
+                  <input type="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Enter your Password">
+                </div>
+          <!-- confirm Password -->
+          <div class="input-group mb-3" style="padding-top: 5px; width: 60vw ;padding-bottom: 30px; " >
+             <span class="input-group-text" id="inputGroup-sizing-lg" style="height:50px ; ">Confirm Password</span>
+             <input type="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Re-Enter Password">
+           </div>
+           <button type="button" class="btn btn-outline-success" style="margin-bottom: 50px;">Submit</button>
+              </center>
+          </div>
+     
+          
+
+
+          
+     </div>
+     <!-- specific forms -->
+    
+     
+     
+     <!-- customer Ends here -->
+     
+     <!-- Seller Starts here -->
+     <div class="container " id="form-seller" style="width:90vw; background-color: #D0D4CA; border-radius:30px; display:none;">
+         <center>
+      <!-- Email   --><p style="color: rgb(69, 55, 55); font-size: 20px ; padding-top: 20px; font-weight: 900;">Additional details for Seller</p>
+       <div class="input-group mb-3" style="padding-top: 30px; width: 60vw; " >
+              <span class="input-group-text" id="inputGroup-sizing-lg" style="height:50px ;">Email</span>
+              <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Enter your email">
+            </div>
+      <!-- shop name -->
+      <div class="input-group mb-3" style="width: 70%; " >
+         <span class="input-group-text" id="inputGroup-sizing-lg" style="height:50px ;">Shop Name</span>
+         <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Enter your Shop name">
+       </div>
+     
+       <!-- GST no. -->
+       <div class="input-group mb-3" style=" width: 60vw; " >
+         <span class="input-group-text" id="inputGroup-sizing-lg" style="height:50px ;">GST No.</span>
+         <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Enter your GST number">
+       </div>
+       <!-- Address  -->
+       <div class="input-group mb-3" style=" width: 60vw; " >
+         <span class="input-group-text" id="inputGroup-sizing-lg" style="height:50px ;">Address</span>
+         <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Enter your Address">
+       </div>
+      
+      <!-- Password number -->
+            <div class="input-group mb-3" style="padding-top: 5px; width: 60vw; " >
+              <span class="input-group-text" id="inputGroup-sizing-lg" style="height:50px ;">Password</span>
+              <input type="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Enter your Password">
+            </div>
+      <!-- confirm Password -->
+      <div class="input-group mb-3" style="padding-top: 5px; width:60vw;padding-bottom: 30px; " >
+         <span class="input-group-text" id="inputGroup-sizing-lg" style="height:50px ; ">Confirm Password</span>
+         <input type="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Re-Enter Password">
+       </div>
+       <button type="button" class="btn btn-outline-success" style="margin-bottom: 50px;">Pay Rs.600</button>
+          </center>
+      </div>
+     
+     
+     <!-- Seller Ends here -->
+     
+     <!-- inventory with seller starts here -->
+     <div class="container " id="form-inventory-management" style="width:90vw; background-color: #D0D4CA; border-radius:30px; display:none;">
+         <center>
+      <!-- Email   --><p style="color: rgb(69, 55, 55); font-size: 20px ; padding-top: 20px; font-weight: 900;">Additional details for Inventory management and Seller</p>
+       <div class="input-group mb-3" style="padding-top: 30px; width: 60vw ; " >
+              <span class="input-group-text" id="inputGroup-sizing-lg" style="height:50px ;">Email</span>
+              <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Enter your email">
+            </div>
+      <!-- shop name -->
+      <div class="input-group mb-3" style="width: 60vw; " >
+         <span class="input-group-text" id="inputGroup-sizing-lg" style="height:50px ;">Shop Name</span>
+         <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Enter your Shop name">
+       </div>
+     
+       <!-- GST no. -->
+       <div class="input-group mb-3" style=" width: 60vw; " >
+         <span class="input-group-text" id="inputGroup-sizing-lg" style="height:50px ;">GST No.</span>
+         <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Enter your GST number">
+       </div>
+       <!-- Address  -->
+       <div class="input-group mb-3" style=" width: 60vw; " >
+         <span class="input-group-text" id="inputGroup-sizing-lg" style="height:50px ;">Address</span>
+         <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Enter your Address">
+       </div>
+       <!-- Account number -->
+       <div class="input-group mb-3" style=" width: 60vw; " >
+         <span class="input-group-text" id="inputGroup-sizing-lg" style="height:50px ;">Account Number</span>
+         <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Enter your Account number" id="signupAccountNumber" maxlength="20">
+       </div> 
+     
+       <!-- Bank Name -->
+       <div class="input-group mb-3" style=" width: 60vw; " >
+         <span class="input-group-text" id="inputGroup-sizing-lg" style="height:50px ;">Bank Name</span>
+         <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Enter your Bank name">
+       </div>
+      
+      <!-- Password-->
+            <div class="input-group mb-3" style="padding-top: 5px; width: 60vw; " >
+              <span class="input-group-text" id="inputGroup-sizing-lg" style="height:50px ;">Password</span>
+              <input type="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Enter your Password">
+            </div>
+      <!-- confirm Password -->
+      <div class="input-group mb-3" style="padding-top: 5px; width: 60vw; " >
+         <span class="input-group-text" id="inputGroup-sizing-lg" style="height:50px ; ">Confirm Password</span>
+         <input type="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Re-Enter Password">
+       </div>
+       <div id="errorInventory" style="color: red; font-size: 15px; padding-bottom: 30px;"></div>
+       <button type="button" class="btn btn-outline-success" style="margin-bottom: 50px;">Pay Rs.1000</button>
+          </center>
+      </div>
+     
+     <!-- inventory with seller ends here -->
+     
+     
+     
+
+
+
+
+    <!-- main ends here -->
+<br><br>
+<!-- footer starts here -->
+<div class="my-footer " style="margin: 0; padding: 0">
+<div class="container">
+    <div class="container text-center">
+        <div class="row">
+          <div class="col my-logo my-footer-heading">
+           <h2>Connect us</h2>
+           <br>
+        <img src="./Resources/images/linkedin.png" alt="linkedin">LinkedIn
+            <br>
+            <img src="./Resources/images/facebook.png" alt="facebook ">Facebook 
+            <br>
+            <img src="./Resources/images/instagram.png" alt="instagram">Instagram 
+            <br>
+            <img src="./Resources/images/github.png"     alt="github">GitHub
+    </div>
+          <div class="col my-footer-heading">
+            <h2 style="margin-bottom: 20px">About Us</h2>
+            <p>
+                At <b>ShopEze </b>, we curate the finest in footwear, cosmetics, and clothing, offering style and quality that transcend trends. Our commitment extends beyond products – we streamline inventory management and prioritize customer satisfaction, ensuring a seamless shopping experience. Trust us for reliability and elegance in every purchase
+            </p>
+          </div>
+          <div class="col my-logo my-footer-heading">
+            <h2 style="margin-bottom: 20px ">Contact Us</h2>
+            <img src="./Resources/images/call.png" alt="facebook ">+91-9999999999 
+            <br>
+            <img src="./Resources/images/gmail.png" alt="instagram">shopeze.india@gmail.com 
+            <br>
+            <img src="./Resources/images/address.png"     alt="github">10023, Vijay Nagar, Indore
+        </div>
+        </div>
+<br><br>
+      <div style="font-weight: bold;">  <center>&copy 19996-2023, ShopEze, Inc. or its affiliates</center>
+        <br><br>
+      </div>
+      </div>
+</div>
+</div>
+<!-- footer ends here -->
+<script src="./JS/signup.js"></script>
+</body>
+</html>

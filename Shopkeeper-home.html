@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="margin: 0; padding: 0; background-color: #f0f0f0">
+    <!-- Header starts here -->
+    <div class="" style="background-color: #332fd090">
+      <div class="container">
+        <header
+          class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"
+        >
+          <a
+            href="/"
+            class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none my-home-logo-name"
+          >
+            <!-- <svg class="bi me-2" width="40" height="32" role="img" aria-label="ShopEze"><use xlink:href=""></use></svg> -->
+            <img
+              class="bi me-2"
+              width="40"
+              height="42"
+              src="./Resources/images/website logo.svg"
+            />
+            ShopEze
+          </a>
+          
+
+          <ul
+            class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0"
+          >
+            <li class="highlight">
+              <a href="./index.html" class="nav-link px-2 link-dark">Home</a>
+            </li>
+            <li class="highlight">
+              <a href="#" class="nav-link px-2 link-dark">Features</a>
+            </li>
+            <!-- <li class="highlight">
+              <a href="#" class="nav-link px-2 link-dark">Pricing</a>
+            </li>
+            <li class="highlight">
+              <a href="#" class="nav-link px-2 link-dark">FAQs</a>
+            </li> -->
+            <li class="highlight">
+              <a href="./about.html" class="nav-link px-2 link-dark">About</a>
+            </li>
+          </ul>
+
+          <div class="col-md-3 text-end">
+            <img
+              src="./Resources/images/person.png"
+              alt="user image"
+              style="width: 3.5vw;"
+            /><label for="user" style="margin-right: 20px; font-weight: 600"
+              >Amitesh Thakur</label
+            >
+            <a href="./index.html">
+            <button
+              type="button"
+              class="btn Shopkeeper-logout-button"
+              style="background-color: red; width: auto"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-box-arrow-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"
+                />
+              </svg>
+              Logout
+            </button>
+            </a>
+          </div>
+        </header>
+      </div>
+    </div>
+    <!-- Header ends here -->
+    <br /><br />
+
+    <!-- main starts here -->
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <button class="Shopkeeper-main-buttons">Manage Stock</button>
+        </div>
+        <div class="col">
+          <button class="Shopkeeper-main-buttons">Billing</button>
+        </div>
+        <div class="col">
+          <button class="Shopkeeper-main-buttons">Sell Online</button>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+
+    <div
+      class="container"
+      style="background-color: #ffd099; border-radius: 30px; height: auto ;"
+    >
+      <div class="container text-center">
+        <div class="row row-cols-3">
+          <div class="col">
+            <button
+              class="Shopkeeper-extra-buttons"
+              style="background-color: #ff6c22"
+            >
+              Add Stock
+            </button>
+          </div>
+          <div class="col">
+            <button
+              class="Shopkeeper-extra-buttons"
+              style="background-color: #ff6c22"
+            >
+              Update Stock
+            </button>
+          </div>
+          <div class="col">
+            <button
+              class="Shopkeeper-extra-buttons"
+              style="background-color: #ff6c22"
+            >
+              Sell Bill
+            </button>
+          </div>
+          <!-- <div class="col">
+            <button
+              class="Shopkeeper-extra-buttons"
+              style="background-color: #ff6c22"
+            >
+              Purchase Bill
+            </button>
+          </div> -->
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row row-cols-3">
+          <div class="col">
+            <button
+              class="Shopkeeper-extra-buttons"
+              style="background-color: #ff6c22"
+            >
+              View Stock
+            </button>
+          </div>
+          <div class="col">
+            <button
+              class="Shopkeeper-extra-buttons"
+              style="background-color: #ff6c22"
+            >
+              View Balancesheet
+            </button>
+          </div>
+          <!-- <div class="col">
+            <button
+              class="Shopkeeper-extra-buttons"
+              style="background-color: #ff6c22"
+            >
+              Add user
+            </button>
+          </div> -->
+          <div class="col">
+            <button
+              class="Shopkeeper-extra-buttons"
+              style="background-color: #ff6c22"
+            >
+              Edit Profile
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br /><br />
+    <div class="container">
+      <center>
+        <a
+          class="btn btn-primary Shopkeeper-extra-buttons"
+          data-bs-toggle="offcanvas"
+          href="#offcanvasExample"
+          role="button"
+          aria-controls="offcanvasExample"
+          style="text-align: center; background-color: #0c356a"
+        >
+          More Options
+        </a>
+
+        <div
+          class="offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasExample"
+          aria-labelledby="offcanvasExampleLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Options</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div>
+              Explore customization, exclusive deals, size guides, personalized
+              recommendations, and eco-friendly collections for making best user
+              experience.
+            </div>
+            <div class="dropdown mt-3">
+              <button class="Shopkeeper-option-buttons">Edit Profile</button>
+              <br />
+              <button class="Shopkeeper-option-buttons">Add sub user</button>
+
+              <br />
+              <button
+                class="dropdown-toggle Shopkeeper-option-buttons"
+                type="button"
+                data-bs-toggle="dropdown"
+              >
+                Stock
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Add Stock</a></li>
+                <li><a class="dropdown-item" href="#">Update Stock</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">View Available Stock</a>
+                </li>
+              </ul>
+              <br />
+              <button class="Shopkeeper-option-buttons">Total Sell</button>
+              <br />
+              <button
+                class="dropdown-toggle Shopkeeper-option-buttons"
+                type="button"
+                data-bs-toggle="dropdown"
+              >
+                Billing
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Sell Bill</a></li>
+                <li><a class="dropdown-item" href="#">Purchase Bill</a></li>
+              </ul>
+              <br />
+              <button class="Shopkeeper-option-buttons">Balancesheet</button>
+              <br />
+              <button
+                class="dropdown-toggle Shopkeeper-option-buttons"
+                type="button"
+                data-bs-toggle="dropdown"
+                style="width: 200px"
+              >
+                Online Sell
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Add product</a></li>
+                <li><a class="dropdown-item" href="#">Remove product</a></li>
+                <li><a class="dropdown-item" href="#">Update product</a></li>
+                <li><a class="dropdown-item" href="#">View product list</a></li>
+                <li><a class="dropdown-item" href="#">View Earnings</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </center>
+    </div>
+
+    <!-- main ends here -->
+    <br /><br />
+
+    <!-- Footer Starts here -->
+    <div class="my-footer" style="margin: 0; padding: 0">
+      <div class="container">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col my-logo my-footer-heading">
+              <h2>Connect us</h2>
+              <br />
+              <img
+                src="./Resources/images/linkedin.png"
+                alt="linkedin"
+              />LinkedIn
+              <br />
+              <img
+                src="./Resources/images/facebook.png"
+                alt="facebook "
+              />Facebook
+              <br />
+              <img
+                src="./Resources/images/instagram.png"
+                alt="instagram"
+              />Instagram
+              <br />
+              <img src="./Resources/images/github.png" alt="github" />GitHub
+            </div>
+            <div class="col my-footer-heading">
+              <h2 style="margin-bottom: 20px">About Us</h2>
+              <p>
+                At <b>ShopEze </b>, we curate the finest in footwear, cosmetics,
+                and clothing, offering style and quality that transcend trends.
+                Our commitment extends beyond products – we streamline inventory
+                management and prioritize customer satisfaction, ensuring a
+                seamless shopping experience. Trust us for reliability and
+                elegance in every purchase
+              </p>
+            </div>
+            <div class="col my-logo my-footer-heading">
+              <h2 style="margin-bottom: 20px">Contact Us</h2>
+              <img
+                src="./Resources/images/call.png"
+                alt="facebook "
+              />+91-9999999999
+              <br />
+              <img
+                src="./Resources/images/gmail.png"
+                alt="instagram"
+              />shopeze.india@gmail.com
+              <br />
+              <img src="./Resources/images/address.png" alt="github" />10023,
+              Vijay Nagar, Indore
+            </div>
+          </div>
+          <br /><br />
+          <div style="font-weight: bold">
+            <center>&copy 19996-2023, ShopEze, Inc. or its affiliates</center>
+            <br /><br />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer ends here -->
+  </body>
+</html>
